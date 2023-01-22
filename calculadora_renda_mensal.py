@@ -16,9 +16,10 @@ while c != 3:
     if c == 1:
         preco = float(input('Qual o preço do ativo? R$'))
         cotas = valorinvest // preco
-    elif c == 2:
+    elif c == 2 or c == 3:
         preco = 0
         cotas = 0
+
     print('x-'*20)
     print('''
         RENDA MENSAL    = R${:.2f}
